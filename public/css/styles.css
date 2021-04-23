@@ -88,14 +88,18 @@ h2 {
   transform: rotateZ(45deg) translate(-9px, -8px);
 }
 
+.green-background {
+  height: 10px;
+  background-color: rgba(3,109,47);
+}
 
 /* Hero Section */
 .hero-section {
-  background-image: url("../images/nelsonCustomLogo.jpg");
-  background-attachment: fixed;
+  background-image: url("../images/customLogoCentered.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   height: 65vh;
-  background-position: center;
+  background-position: center center;
 }
 
 /* Announcements Section */
@@ -307,6 +311,10 @@ h2 {
 
   .navbar-divider {
     display: none;
+  }
+
+  .green-background {
+    height: 55px;
   }
 
   .directors-section {
