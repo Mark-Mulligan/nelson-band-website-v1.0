@@ -294,6 +294,18 @@ h2 {
   overflow: scroll;
 }
 
+/* Questions-section */
+.questions-section {
+  padding-top: 50px;
+}
+
+.questions-section ol {
+  font-weight: bold;
+}
+
+.questions-section p {
+  font-weight: normal;
+}
 
 
 @media (max-width: 750px) {
@@ -371,6 +383,9 @@ h2 {
     padding-top: 100px;
   }
 
+  .questions-section {
+    padding-top: 100px;
+  }
 }
 
 
