@@ -90,11 +90,17 @@ h2 {
 
 /* Hero Section */
 .hero-section {
-  background-image: url("../images/nelsonBandIndoorsCropped.jpg");
+  background-image: url("../images/nelsonLogo.jpg");
   background-attachment: fixed;
   background-size: cover;
   height: 65vh;
   background-position: center;
+}
+
+/* Announcements Section */
+.announcements-section {
+  padding-top: 100px;
+  padding-bottom: 150px;
 }
 
 .announcements ul {
@@ -109,8 +115,19 @@ h2 {
   text-decoration: underline;
 }
 
+/* Background Image Placeholder */
+.background-img-spacer {
+  min-height: 75vh;
+  background-image: url("../images/nelsonBandIndoorsCropped.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Calendar Section */
 .calendar-section {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .calendar-section .container {
@@ -141,6 +158,65 @@ h2 {
   }
 }
 
+/* FOOTER */
+.footer {
+  margin-top: 100px;
+  min-height: 50vh;
+}
+
+.social-links-container {
+  max-width: 260px;
+  margin-bottom: 100px;
+}
+
+.fa-facebook-square {
+  color: rgb(66, 103, 178)
+}
+
+.fa-twitter-square {
+  color: rgb(29, 161, 242)
+}
+
+.nelson-logo {
+  border-radius: 100%;
+}
+
+.useful-links-container {
+  max-width: 700px;
+}
+
+.links-wrapper {
+  display: inline-block;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.footer-links li {
+  padding: 10px 1px;
+}
+
+.footer-links a {
+  border-bottom: 1px solid;
+  color: inherit;
+  padding: 2px;
+}
+
+.footer-links a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.nelson-logo {
+  width: 290px;
+}
+
+
+/* Directors Page */
 .directors-section {
   margin-top: 50px;
 }
