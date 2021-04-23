@@ -22,6 +22,7 @@ h2 {
 
 .navbar-title {
   font-size: 50px;
+  font-family: 'Bitter', serif;
 }
 
 .navbar-divider {
@@ -90,7 +91,7 @@ h2 {
 
 /* Hero Section */
 .hero-section {
-  background-image: url("../images/nelsonLogo.jpg");
+  background-image: url("../images/nelsonCustomLogo.jpg");
   background-attachment: fixed;
   background-size: cover;
   height: 65vh;
@@ -99,8 +100,8 @@ h2 {
 
 /* Announcements Section */
 .announcements-section {
-  padding-top: 100px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .announcements ul {
