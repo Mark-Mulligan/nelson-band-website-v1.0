@@ -87,49 +87,6 @@ h2 {
   transform: rotateZ(45deg) translate(-9px, -8px);
 }
 
-@media (max-width: 630px) {
-  .custom-navbar {
-    padding-top: 0;
-    padding-bottom: 0;
-    flex-direction: unset;
-    justify-content: flex-start;
-    align-items: center;
-    position: fixed;
-    z-index: 3;
-    background-color:rgb(240, 240, 240);
-    width: 100%;
-  }
-
-  .hamburger-menu {
-    display: flex;
-  }
-
-  .navbar-items-wrapper {
-    position: fixed;
-    top: 0;
-    right: -250px;
-    flex-direction: column;
-    background-color: white;
-    height: 100%;
-    padding-top: 70px;
-    width: 250px;
-    transition: linear .4s;
-  }
-
-  .open .navbar-items-wrapper {
-    right: 0px
-  }
-
-  .navbar-title {
-    font-size: 32px;
-    margin-top: .5rem;
-  }
-
-  .navbar-divider {
-    display: none;
-  }
-}
-
 
 /* Hero Section */
 .hero-section {
@@ -181,6 +138,102 @@ h2 {
   .band-calendar {
     height: 440px;
     width: 450px
+  }
+}
+
+.directors-section {
+  margin-top: 50px;
+}
+
+.directors-section .container {
+  max-width: 900px;
+}
+
+.director-name {
+  width: 300px;
+  text-align: center;
+}
+
+.director-img-bio-container {
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+
+.director-bio {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+}
+
+.director-img {
+  width: 100%;
+  max-width: 300px;
+}
+
+@media (max-width: 750px) {
+  .director-img-bio-container{
+    display: block;
+  }
+
+  .director-img {
+    margin: auto auto 10px auto;
+  }
+
+  .director-name {
+    margin: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .director-bio {
+    padding: 0;
+  }
+}
+
+@media (max-width: 630px) {
+  .custom-navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    flex-direction: unset;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    background-color:rgb(240, 240, 240);
+    width: 100%;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .navbar-items-wrapper {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+    padding-top: 70px;
+    width: 250px;
+    transition: linear .4s;
+  }
+
+  .open .navbar-items-wrapper {
+    right: 0px
+  }
+
+  .navbar-title {
+    font-size: 32px;
+    margin-top: .5rem;
+  }
+
+  .navbar-divider {
+    display: none;
+  }
+
+  .directors-section {
+    margin-top: 0;
   }
 }
 
