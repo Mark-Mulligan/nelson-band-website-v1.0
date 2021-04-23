@@ -1,6 +1,11 @@
 body {
   min-height: 200vh;
-  background-color: rgb(240, 240, 240)
+  background-color: rgb(240, 240, 240);
+  padding-bottom: 100px;
+}
+
+h2 {
+  font-size: 40px;
 }
 
 /* Navbar */
@@ -131,10 +136,6 @@ body {
   background-position: center;
 }
 
-.announcements-section h2 {
-  font-size: 40px;
-}
-
 .announcements ul {
   margin: 0;
   padding: 0;
@@ -146,5 +147,38 @@ body {
   color: grey;
   text-decoration: underline;
 }
+
+.calendar-section {
+  margin-top: 100px;
+}
+
+.calendar-section .container {
+  max-width: 900px;
+}
+
+.band-calendar-wrapper {
+  height: 600px;
+  width: 100%;
+  overflow: scroll;
+}
+
+@media (max-width: 767px) {
+  .band-calendar-wrapper {
+    height: 450px;
+  }
+}
+
+.band-calendar {
+  height: 99%;
+  width: 99%;
+}
+
+@media (max-width: 500px) {
+  .band-calendar {
+    height: 440px;
+    width: 450px
+  }
+}
+
 
 
