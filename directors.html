@@ -29,36 +29,45 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./public/css/styles2.css" />
+    <link rel="stylesheet" href="./public/css/styles.css" />
     <title>Nelson Band</title>
   </head>
   <body>
-
-    <div class="body-cover">
-      <img class="faded-logo" src="./public/images/nelsonLogo.jpg"/>
-
-      <div class="text-center mt-5">
-        <h1>Nelson Night Hawk Band</h1>
-      </div>
-      <div class="background-img">
-
+    <nav class="custom-navbar">
+      <div class="hamburger-menu">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
       </div>
 
-      <div class="test">
-
+      <div>
+        <h1 class="navbar-title">Nelson Nighthawk Band</h1>
       </div>
-
-      <div class="test">
-
+      <hr class="navbar-divider" />
+      <div>
+        <ul class="navbar-items-wrapper">
+          <li class="navbar-item">
+            <a class="navbar-link" href="/index.html">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#">Directors</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="/index.html#calendar">Calendar</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#">Private Lessons</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#">Resources</a>
+          </li>
+        </ul>
       </div>
+    </nav>
 
-      <div class="test">
+   
 
-      </div>
-
-
-    </div>
-    
+     
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script
@@ -71,5 +80,7 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
+
+    <script src="public/scripts/script.js"></script>
   </body>
 </html>
