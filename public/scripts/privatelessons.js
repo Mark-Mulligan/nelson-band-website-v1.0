@@ -43,6 +43,41 @@ const lessonTeacherData = [
     name: "William Chien",
     instrument: "Saxophone",
     email: "williamchien.saxophone@gmail.com"
+  },
+  {
+    name: "Steve Stark",
+    instrument: "Trumpet",
+    email: "stephen.stark7@gmail.com"
+  },
+  {
+    name: "Lisa Hummel",
+    instrument: "French Horn",
+    email: "hummelstudio@gmail.com"
+  },
+  {
+    name: "Tony Bianchetta",
+    instrument: "Trombone",
+    email: "mrb4band@gmail.com"
+  },
+  {
+    name: "Ada Brooks",
+    instrument: "Euphonium/Tuba",
+    email: "ada0brooks@gmail.com"
+  },
+  {
+    name: "Jordan Drake",
+    instrument: "Euphonium/Tuba",
+    email: "Jordandrake0316@gmail.com"
+  },
+  {
+    name: "William Champion",
+    instrument: "Percussion",
+    email: "will.champion93@gmail.com"
+  },
+  {
+    name: "Waichi Champion",
+    instrument: "Percussion",
+    email: "tangwchi@gmail.com"
   }
 ];
 
