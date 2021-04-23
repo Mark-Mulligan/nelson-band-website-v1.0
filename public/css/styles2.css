@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+
+.body-cover {
+  height: 100vh;
+  position: relative;
+  overflow: scroll;
+}
+
+.faded-logo {
+  opacity: 0.1;
+  position: absolute;
+  border-radius: 100%;
+  left: 50%;
+  margin-left: -50vh;
+  height: auto;
+  width: 100vh;
+}
+
+.background-img {
+  height: 100vh;
+  background-image: url("../images/nelsonBandIndoors.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.test {
+  background: rgba(255, 255, 255, 0.2);
+  height: 50vh;
+
+}
