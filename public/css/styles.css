@@ -201,17 +201,17 @@ h2 {
   font-size: 20px;
 }
 
-.footer-links li {
+.footer-item {
   padding: 10px 1px;
 }
 
-.footer-links a {
+.footer-link {
   border-bottom: 1px solid;
   color: inherit;
   padding: 2px;
 }
 
-.footer-links a:hover {
+.footer-link:hover {
   text-decoration: none;
   color: grey;
 }
