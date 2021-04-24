@@ -8,6 +8,18 @@ h2 {
   font-size: 40px;
 }
 
+.card a {
+  color: inherit;
+  border-bottom: 1px solid;
+  padding: 2px;
+}
+
+.card a:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+
 /* Navbar */
 .custom-navbar {
   display: flex;
@@ -307,6 +319,19 @@ h2 {
   font-weight: normal;
 }
 
+/* Band Sign Up */
+.band-signup-section {
+  padding-top: 50px;
+}
+
+.band-signup-section .container {
+  max-width: 600px;
+}
+
+.qr-code {
+  max-width: 250px;
+  margin: auto;
+}
 
 @media (max-width: 750px) {
   .director-img-bio-container{
@@ -384,6 +409,10 @@ h2 {
   }
 
   .questions-section {
+    padding-top: 100px;
+  }
+
+  .band-signup-section {
     padding-top: 100px;
   }
 }
