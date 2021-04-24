@@ -376,7 +376,7 @@ h2 {
     top: 0;
     right: -250px;
     flex-direction: column;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     height: 100%;
     padding-top: 70px;
     width: 250px;
