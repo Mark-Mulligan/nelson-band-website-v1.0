@@ -8,15 +8,34 @@ h2 {
   font-size: 40px;
 }
 
-.card a {
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
   color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: grey;
+}
+
+.card a {
   border-bottom: 1px solid;
   padding: 2px;
 }
 
 .card a:hover {
-  cursor: pointer;
   color: grey;
+}
+
+.expand-cards .card {
+  height: 100%;
 }
 
 .top-screen-padding {
@@ -63,17 +82,6 @@ h2 {
 .navbar-item {
   padding: 10px 20px;
   font-size: 18px;
-}
-
-.navbar-link {
-  text-decoration: none;
-  color: black;
-}
-
-.navbar-link:hover {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
 }
 
 .hamburger-menu {
@@ -129,15 +137,7 @@ h2 {
 }
 
 .announcements ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
   font-size: 18px;
-}
-
-.announcements a {
-  color: grey;
-  text-decoration: underline;
 }
 
 /* Background Image Placeholder */
@@ -302,15 +302,6 @@ h2 {
   overflow: scroll;
 }
 
-/* Questions-section */
-.questions-container .card {
-  height: 100%;
-}
-
-
-.questions-section ol {
-  list-style: none;
-}
 
 /* Band Sign Up */
 .band-signup-section {
