@@ -4,6 +4,12 @@ body {
   padding-bottom: 100px;
 }
 
+@media (max-width: 500) {
+  body {
+    padding-bottom: 50px;
+  }
+}
+
 h2 {
   font-size: 40px;
 }
@@ -147,6 +153,12 @@ a:hover {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+}
+
+@media (max-width: 500px) {
+  .background-img-spacer {
+    background-attachment: scroll;
+  }
 }
 
 /* Calendar Section */
@@ -382,6 +394,10 @@ a:hover {
 
   .green-background {
     height: 55px;
+  }
+
+  .top-screen-padding {
+    padding-top: 100px;
   }
 }
 
