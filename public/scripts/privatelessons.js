@@ -99,7 +99,11 @@ lessonTeacherData.forEach((teacher) => {
     const tableCell = document.createElement("td");
 
     tableHeader.innerText = col.Header;
-    tableCell.innerText = teacher[col.accessor];
+    if (col.accessor === "email") {
+      tableCell.innerHTML = `<a href="mailto:${teacher[col.accessor]}">${teacher[col.accessor]}</a>`;
+    } else {
+      tableCell.innerText = teacher[col.accessor];
+    }
 
     tableRow.appendChild(tableHeader);
     tableRow.appendChild(tableCell);
